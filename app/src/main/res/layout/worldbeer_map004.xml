@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:layout_gravity="center"
+        android:id="@+id/mapImage"
+        android:src="@drawable/pic7" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mapText"
+        android:layout_below="@+id/mapImage"
+        android:gravity="center"
+        android:textColor="#024750"
+        android:text="위치 : 경기도 하남시 스타필드" />
+
+    <TextView
+        android:id="@+id/mapLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="네이버 지도"
+        android:gravity="center"
+        android:layout_below="@+id/mapText"
+        android:textSize="30dp"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true">
+
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:text="홈" />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:text="메뉴" />
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:text="소식" />
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:text="지도" />
+
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_weight="1"
+            android:text="회원" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
